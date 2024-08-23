@@ -169,7 +169,24 @@ nav{
   font-size: 12px;
 }
 
+.description {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 7px;
+  
+}
 
+.descri-para{
+  padding-left: 100px;
+  padding-right: 35px;
+  text-align: center;
+}
+
+.seeds-img{
+  width: 300px;
+  padding-left: 5px;
+}
 
 
 
@@ -198,6 +215,13 @@ nav{
     width: 200px;
     margin-top: 10px;
   }
+
+  .descri-para{
+    padding-left: 40px;
+    padding-right: 35px;
+   
+  }
+ 
 
 }
 
@@ -255,6 +279,22 @@ nav{
   .hero-left p {
     font-size: x-small;
     margin-bottom: 10px;
+  }
+
+  .description {
+    flex-wrap: wrap;
+    
+    
+  }
+
+  .descri-para{
+    padding: 30px;
+   
+  }
+
+  .seeds-img{
+    width: 250px;
+    padding-left: 5px;
   }
 
   
