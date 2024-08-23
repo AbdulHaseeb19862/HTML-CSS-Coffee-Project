@@ -306,6 +306,19 @@ nav{
     justify-content: center;
     align-items: center;
   }
+
+  .bean-cards {
+    flex-wrap: wrap;
+  }
+  .bean-card {
+    
+    
+    
+    align-items: center;
+    margin: 0px 10px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+  }
  
 
 }
