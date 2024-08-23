@@ -216,7 +216,7 @@ nav{
 }
 .inner-container{
   width: 90%;
-  background-color: rgba(111, 78, 55, 0.9);;
+  background-color: rgba(111, 78, 55, 0.9);
   height: 80%;
   display: flex;
   justify-content: center;
@@ -229,6 +229,42 @@ nav{
 .img1{
   width: 70px;
   margin: auto;
+}
+
+.bean-cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bean-card {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(111, 78, 55, 0.9);;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.bean-card img {
+  width: 150px;
+  position: relative;
+  top: -80px;
+}
+.des-beans{
+  position: relative;
+  bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.des-beans h3 {
+  font-size: 18px;
 }
 
 
